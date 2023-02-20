@@ -1,0 +1,58 @@
+These are RFLAGS reg test instructions
+Condition					Mnemonic		RFLAG Test
+Code						Suffix			Conditon
+
+Above						A				CF == 0 && ZF == 0
+Neither Below or Equal		NBE
+
+Above or Equal				AE				CF == 0
+Not Below					NB
+
+Below						B				CF == 1
+Neither Above nor Equal		NAE
+
+Below or Equal				BE				CF == 1 || ZF == 1
+Not Above					NA
+
+Equal						E				ZF == 1
+Zero						Z
+
+Not Equal					NE				ZF == 0 
+Not Zero					NZ
+
+Greater						G				ZF == 0 && SF == 0F
+Neither less nor equal		NLE
+
+Greater or Equal			GE				SF == 0F
+Not Less					NL
+
+Less						L				SF != 0f
+Neither Greater nor Equal	NGE
+
+Less or Equal				LE				ZF == 1 || SF != 0F
+Not Greater					NG
+
+Sign						S				SF ==1
+
+Not Sign					NS				SF == 0
+
+Carry 						C				CF == 1
+
+Not Carry					NC				CF == 0
+
+Overflow					O				OF == 1
+
+Not Overflow				NO				OF == 0
+
+Parity						P				PF == 1
+Parity Even					PE				
+
+Not Parity					NP				PF == 0
+Parity Odd					PO
+ 
+
+
+
+
+
+

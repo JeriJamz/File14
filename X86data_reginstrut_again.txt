@@ -1,0 +1,18 @@
+This is Mnemonic for RFLAGS test. Its starting to look like boolean values and
+If statements
+
+
+
+Condition Code				Mnemoni		RFLAGS test
+Code						Suffix		Conditon
+Above						A			CF == 0 && ZF == 0
+Neither Below nor equal		NBE			
+
+Above or Equal				AE			CF == 0
+Not Below					NB		
+
+Below						B			CF == 1
+Neither Above nor Equal		NAE			
+
+Below or Equal				BE			CF == 1 || ZF == 1
+Not Above					NAQ
