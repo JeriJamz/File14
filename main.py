@@ -1,7 +1,5 @@
 import pygame as pg, sys 
 from settings import * 
-from debug import debug
-from lvls import Level
 
 class Game:
     def __init__(self):
@@ -9,10 +7,7 @@ class Game:
         #gen setup
         pg.init()
         self.screen = pg.display.set_mode((Hgt,Wdt))
-        pg.display.set_caption('RPG')
-        self.clock = pg.time.Clock()
-
-        self.level = Level()
+        self.clock = pygame.time.Clock()
 
     def run(self):
         while True:
@@ -21,11 +16,9 @@ class Game:
                     pg.quit()
                     sys.exit()
 
-            self.screen.fill(Blk)
-            debug('-_-')
-            self.level.run()
-            pg.display.update()
-            self.clock.tick(FPS)
+            self.screen.fill('Blk')
+            pg.display_update()
+            self.clock.ticks(FPS)
 
 if __name__ == '__main__':
     game = Game()

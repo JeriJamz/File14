@@ -1,0 +1,12 @@
+#call this a read me 
+
+I gott think tank this
+1.)Get the name:
+    Try and break it up into first last and a whole name
+    I wanna store this data in an array and be able to grab it
+    Also I need to make it search for new user and pull-up account info
+2.) I wanna make a AccNum Generator:
+   Jus In case it is a new user
+3.)I want to be able to output AccNfo, on command(just one line/whole sheet)
+4.)I wanna be able to add newAccNfo, and be able to modify exsiting data
+5.)Im going to have to make a diffrent file .txt that will hold the info

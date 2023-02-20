@@ -1,0 +1,17 @@
+h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+    float:right;
+    color:blue
+}
+
+body{
+    margin-inline: 5px;
+    padding: 25px;
+    background-image: url("ss.jfif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*background-size: cover; this will cover the background but it might be streched
+    i but its a background*/
+    background-size: 100%100%;
+}

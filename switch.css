@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f2eee3;
+}
+input[type=chekcbox]{
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+label{
+    cursor: pointer;
+    width: 200px;
+    height: 100px;
+    background: grey;
+    display: block;
+    border-radius: 100px;
+    position: relative;
+}
+label:after{
+    content:"";
+    position: absoulute;
+    height: 90px;
+    top: 5px;
+    width: 90px;
+    background: #f2eee3
+    border-radius: 90px;
+    transtion: 0.5s
+}
+
+input:checked + label:after{
+    width: 130px;
+}
