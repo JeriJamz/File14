@@ -1,0 +1,8 @@
+#this is for the grammar 
+expr: at least two factors and or more than one term and int.token 
+
+term: two factor and an int.token 
+
+factor: int|float
+
+

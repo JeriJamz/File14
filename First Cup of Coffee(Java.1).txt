@@ -1,0 +1,67 @@
+First Cup of Coffee(Java.1)
+#lol, why am I doing this. This is a special program(I bet it good for web-browser instead of programming stuff)
+#*my bad about the side notes but:
+    Instead of being this rewritting the Cpu Java Edge is the web.
+    Prolly great for making API, web based app, BLOCKCHAINS!!!,
+    willing to bet Java Versility makes its top-dog. Willing to bet servers are written in this*#
+
+Java is Obj Oreniented (Oh God, this isn't C, Its a prototype python)
+Obj:
+    and instance of an class(adj, verbs)#eating, yelling\whispering, color, mood, status
+Class:
+    A fancy function:(hol up I Got you)
+    Imagine an function and all its arguments it can take
+    Now Imagine you made a  variable, that can hold arguements that you came up with
+    Now that might now sound like a variable anymore, BC it isnt.
+    its a user made function I.E A class
+Method:
+    More like a behavior, This is where the data is stored and manipulated
+    Sorta like an arguement that a like more flexiable,
+    pretty sure you can make this dynamic and make it into a psudeo-function
+
+
+Some basic Syntax for Java:
+    (1)Java is Case-Sensitive
+    (2)Case Name - Nun to crazy. Dont be like me when naming things and make sure there is meaning and can easliy associated
+    (3)Method Names - Best things is to have them start lowercase
+    (4)Program File name - this should be the same as the file Name
+    (5)public static void main(String args[]) - this starts the process of converting Hi-code to Machine-code
+
+Java Identifier:
+    Identifier are the technical name for the names used for classes, variables, methods
+    They should begin with a letter or a $ or an underscore
+    A keyword cannot be an Identifier
+    Identifier are case-sensitive
+
+Java Modifiers:
+    Access Modifiers:
+        default, public, protected, private
+    Non-Access Modifiers:
+        Final, Abstrasct, strictfp
+    #This is just a quick-run-down
+
+Java variable:
+    Local variables
+    Class variables (Static)
+    Instance Variables (Non-Static)
+
+Java Arrays:
+    #everyone favorite guest, Go in more detail later
+
+Java Enums:
+    This is a relativly new thing
+    This is meant to restrict a variable to having only one of a few,
+    predefined values
+    This supposed to help cutdown on bugs
+    #I bet this would be amazing with data validation
+    #ngl this feature is awesome
+
+Inheritance:
+    An amazing headache, Its a class within a class
+    it can inherit arguements from the parent class or it can come-up with it own arguement(that can only be called on when the parent called on#idk)
+    existing code is called a superclass
+    derived class are called subclass
+
+interfaces:
+    Its the name, for how the classes commmunicate
+    especially for derived class
