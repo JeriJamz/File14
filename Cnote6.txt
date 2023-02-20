@@ -1,0 +1,47 @@
+Cnotes 6:
+back to the Cnotes
+Read data from a file
+C can read other source files(kinda like the stdin.h)#apparently this refers to the keyboard and out refers to the mointer
+the file can be accessed without user intervention:
+    refered to as batch mode
+it possible to reassign the stdin to a diffrent input:
+    assign it to a diffrent .txt file so i can be read and input
+    #depends on the compiler so |    !!!caution!!!      |
+This file in from the book should wrk wit any C program:
+    import read_file_skel():
+        FILE * in;       #this reads the file
+        in = fopen("input.txt","r");        #tell C to read\
+        #FILE * in = fopen("input.txt","r");This does the same as the top two lns
+        #pretend its in C:\testdata\input.txt
+        FILE * in =  fopen("E:\\input.txt", "r");
+    exit()
+FILE * in:
+    file must be in all caps
+in = fopen("input.txt", "r"):
+    this is the function that open and reads files#well the r is what tells it to read 
+    #"w" means write
+one all that is done the data pointer will be pointed at the beginning of the file
+FILE * in =  fopen("C:\\testdata\\input.txt","r");:
+    is also a way to read the file
+if the data is on a flash drive use:
+    FILE * in = fopen("E:\\input.txt","r");
+#*Idk if i noted this already but you can have output(Like a screen) written on anything it can be written on(Including website :)*#
+*fscanf:
+    "R" tells see to prep for reading. fscanf is what actally reads
+    Its just like scanf but the first argument is the file pointer in:
+        import Ex()>
+            if you have an int value write it like(
+            fscanf(in, "%d", &num);)
+            ima assume for string value(
+            fscanf(in, "%d", string);)
+        Exit()
+    after you are done reading data from a file use the fclose() methods:
+        fclose(in);
+    #*remember the file pointer is a method(kinda a function(fancy method)). When trying to read a diffrent file
+    just replace the first argument*#
+    #*
+            ********SIDE NOTE********
+            So after the File * method has been used you can't redeclare it
+            but I think you can in = fopen() to read another file 
+                                    *# 
+

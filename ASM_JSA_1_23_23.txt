@@ -1,0 +1,2 @@
+Just had to say this:
+working on some ASM code, but the compiler is kicking my ass. but I found a really good video on youtube that should help so asm coming soon...(my a VM in asm)

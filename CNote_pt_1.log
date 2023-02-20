@@ -1,0 +1,39 @@
+selection logic(bools, ifs,else)
+Boolean:
+    #fun fact this is named after an english mathmaticians(George Boole)
+    True or false 
+    there are relational expression are boolean expression( equal to, greater than, etc, etc...)
+    here are some relation expression in C:
+        ==(equal to)
+        !=(not equal to)
+        >(greater than)
+        >=(greater than equal too)
+        <(less than)
+        <=(less than equal too)
+    is normally used to control flow of program 
+    #ngl boolean and if statments is what really makes programs go so i get how it control the flow. its like it control the conditions and move off the conditon of true or false 
+    !!! Relational expression create simple conditions 
+
+
+#*
+    important note:
+        C doesnt really have a true or false boolean but it uses numeric values instead:
+            its true if it isnt a non-zero and false if it is a zero 
+*#
+
+
+
+AND(&&), OR(||), NOT(!):
+    (Line 16) creates compound conditions
+    #idea: can set ranges in things 
+    for compound conditions statements:
+        x >= 1 && <=100 isnt really right but:
+            (x>= 1) && (<=100) is
+        execpt not(written like this);
+            !( n>= && n <=12 )
+if Statment:
+    if statments has something called pseudocode:
+        it almost seem like pseudocode are arguements but with extra steps
+    if statment{xray}:
+        if(<conditions>) <statment>
+    

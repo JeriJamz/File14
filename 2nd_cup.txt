@@ -1,0 +1,44 @@
+2nd cup of Coffee:
+This time around gonna talk more about classes and obj
+Import OOJ_fun_concepts()>
+
+Objects in Java:
+    Obj are somethings that can take on classes. Ik that no help
+    think of and dog, and all the ways to describe a dog and the things they can do:
+        like, color, breed, name, or can it bark(These are examples or classes)
+    This same concepts applies to software too:
+        well pretend software is an obj:
+            it will need classes like,
+            online status,
+            How long the user been active,
+            When they click on somethings/ which class will be called and executed,
+            storing low-volume data,
+            The Possibilties are endless
+        
+Local variables:
+    they are defined inside the method, constructors or block
+    they will be declared and init inside the method and variable,
+    this will be destroyed after the method is complete
+
+Instance Variable:
+    These are variables within a class but ourside any method
+    I think these can be global variables but they're gonna be associated with parent class no matter what
+    
+Class Variables:
+    These are declared outside within a class outside any method, with static keyword
+
+Constructors:
+    Constructor are needed for every class in Java,
+    if you don't make one Java will auto make one
+    Import Ex()>
+        public Puppy(String name){
+        //This is a constructors and it has one parameter(name)
+        }
+
+Singleton Class:#idk
+    The purpose of this is to control obj creation
+    limiting the number of obj to one
+    The instance of classes will happen only one time(since it only has one obj)
+    This usally control access to stuff(servers)
+    #side note this is great for servers.
+    
