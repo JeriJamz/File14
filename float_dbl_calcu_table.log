@@ -1,0 +1,7 @@
+Calculations resluts:
+op1     op2     Typeof calcu 
+
+float   float   float 
+float   dbl     dbl
+dbl     float   dbl 
+dbl     dbl     dbl 
