@@ -1,0 +1,67 @@
+X86 notes(3):
+#guess this is where i really start coding
+setting the environments:
+    # I should start running this inna vm
+    #im just not gonna print the code but understand where me shit is
+    .text  holds instructions
+    .data holds global variables
+    programmers use labels to get rid of numeric address:
+        like variabels so i can see what i made
+            _start is a label
+    _start is an entry point
+        marks where the first instruction is to be executed
+    #i think start has to global but i also think it can also be local
+    semi colon is a comment ; 
+    asm is made of commands that is madded in machine code
+    #this isnt regular code(ima need to use a vm) its commands. python use regular code 
+    other controls in asm(not commands) are called directives
+    the 'ello wrld' program has three directives  
+        global,section, db
+    the db directive is used to make byte data
+    diffrent ways to format the data:#for rn data is floats,int,string
+        db - bytes
+        dw - (words)? equal to 2 byte each
+        dd - doubles words equal to 4 bytes 
+        dq - quad words equal to 8 bytes
+basic instructions:
+    mov(instruction) is used to write a value in the mem or reg:
+        you can transer this value to the reg or mem:
+        2 things:
+            (1)mov cannot copy data from mem to mem 
+            (2)the source and the destination operands must be the same size(&type)
+    syscall:
+        is really used in the *inx 
+        programmer cant used input/output operations bc that is directly/ u gotta bypass the system
+            (1)rax register |'has to'| hold system call number
+            (2)these hold arguments:
+                rdi,rsi,rdx,r10,r8,r9
+                    system call cant take more then six arguements
+            (3)execute syscall instructions
+        it doesnt matter which order the register are init
+        #syscall instructions change rcx r11
+        in ello wrld the write syscall
+            (1)File Descriptor
+            (2)the buffer address(for consecutive bytes)
+            (3)the amount of bytes to write 
+    section .data
+        is how to hold data
+        i think it also how to properly start asm like #include in C
+    .text
+        is to hold variable names
+    _start
+        a global variable that would really get the program moving(int main(){})
+    syscall helps terminate a program the right way 
+    hexidecimals are real:
+        every four bits should be output as a hexidecimal 
+            gotta use shift? and bitwise to iso them
+            this offset the db array
+    .loop is  a global variable
+        #reading off the doc here
+        imma assume the author made some type of while loop in asm
+    cl(register) is the smallest part in rcx:
+        rcx -- ecx --- cx --- ch/cl 
+        rax -- eax --- ax --- ah/al
+        
+
+
+
