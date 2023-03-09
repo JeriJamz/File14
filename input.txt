@@ -1,0 +1,1 @@
+this is some random text from a text file. In the coding world we call this a string.
