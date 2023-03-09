@@ -1,0 +1,3 @@
+Yer, trynna see if this is workin. Ion even kno if this method can take
+strings. It should, but aye. Best part about life is we can experiment.
+Ight, Testing 1,2
