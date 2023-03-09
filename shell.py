@@ -1,9 +1,11 @@
-#called shell , trynna make a languge, gonna try to make a lexor that can read tokens
-import basic
+import defe2
 
 while True:
-    text = input('basic > ')
-    result, error = basic.run('<stdin>',text)
+    text = input('SC >')
 
-    if error: print(error.as_string())
-    else: print(result)
+    result, error = defe2.run('<srdin>', text)
+
+    if error: 
+        print(error.as_string())
+    else:
+        print(result)

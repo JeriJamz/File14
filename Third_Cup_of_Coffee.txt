@@ -1,0 +1,82 @@
+Third cup of Java:
+Making an Obj:
+    There are Three Steps to making an Obj:
+        Declaration: A Vari Declaration with a Vari name with the obj type
+        Instantaion: The 'new' Keyword is used to create the obj
+        Initialization: The 'new' Keyword is followed by a call to a constructor. This __init__ the new obj
+
+Source File Declaration Rules:
+    Rules for declaring class, import and export statements:
+        (1)There can only be one public class per source File
+        (2)A source file can have Multiple Non-public classes
+        (3)The public name should be the same as the file name w\.java
+        (4)If the class is in a package then the package statement should be made first
+        (5)if the import statement are present you must put the, in between The package statment and the class Declaration:
+            if there are no import statement then the package statement should be at the top
+        (6)Import and Package statements will imply to all present classes in the source File:
+            it is not possible to declare diffrent import and/or packages in the source file
+        
+    Classes can have diffrent access lvl, and types:
+        Abstract classes,
+        finally Final Class
+        etc more in later notes
+        Also there are Inner and Anonymous Classes
+
+Java Packages
+    Packages make it easier to streamline this orgainized spagitti code
+
+Import Statement:
+    This tell the compiler where to look for certain classes
+
+*Java Basic datatypes
+There are two data types:
+    (1)Primative Datatypes
+    (2)Refernce/Object Datatypes
+
+Primative datatypes:
+    There are 8 Primative types supported by java:#like keywords
+        (1)Byte:
+            8-bit stack
+            minimum value is -128(-2^7)
+            max value is (127(inclusive))(2^7 -1)
+            default value is 0
+            Byte datatype is used to store large arrays
+        (2)Short:
+            a 16-bit(2bytes) signed two complent Integer
+            min value -32,768 (-2^15)
+            max value 32,767(inclusive(2^15 -1))
+            This saves memeory like a byte but is twice the size
+            default is 0
+        (3)int:
+            32-bit(4bytes) 2CInt
+            min value is -2,147,483,648(-2^31)
+            max value is 2,147,483,647(inclusive(2^31 -1))
+            int is the defualt data type unless you change it(double words)
+            default value is 0
+        (4)Long:
+            64-bit(8-bit) Sign 2CInt 
+            max value is -9,223,372,036,854,775,808(-2^63)
+            min value is 9,233,372,036,854,775,807(inclusive(2^63 -1))
+            this is more of you need a wider range than int
+            defualt value is 0L
+        (5)Float:
+            32-bit(or less) decimal number. it single percision, and can only hol up to 7-9 placeholder before it broken up or called a double
+            this the natural 32 register?(eax???)
+            Mainly is used to store very large arrays
+            default is 0.0f
+            Dont use these for percise values(better for sub counts then a stock-market ticker)
+        (6)Double:
+            is a double percision that works in the 64-bit, Im pretty sure is in the High-Order in the rax register
+            default for deciamls
+            dont use this for precise values
+            default value is 0.0d
+        (7)Boolean:
+            boolean types represnt a bit(too the tee, On or off, true or false, you get it)
+            more like an intrerrupt flag ngl. but also great for conditional checks so you dont have to set it to 0
+            default is false
+        (8)Char:
+            char datatypes is a single 16-bit Unicode Charcater
+            min value '\u0000'(or 0)
+            max value '\uffff'(or 65,535 inclusive)
+            can store and character value
+            

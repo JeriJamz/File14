@@ -1,0 +1,58 @@
+Running MASM at school or at home
+In the AUL
+Go to Start, Programs, Command Prompt. Once the DOS window is open, type the command EDIT. Type your file and save it to your U:\ drive. Be sure it has a .ASM extension. Do not close the DOS window or the editor.
+Go to Start, Programs, Command Prompt. This will open a second DOS window. Change to the U:\ drive and issue the commands to run MASM. Assuming your file is named FIRST.ASM, then these commands will change to the U:\ drive, compile, link and run it.
+U:
+MASM /L FIRST.ASM
+LINK FIRST.OBJ
+FIRST.EXE
+If you have any errors after issuing the MASM command, then you will need to fix your .ASM file and redo the above steps. You can open the file FIRST.LST to see where all your errors are, but you must make changes the FIRST.ASM file, not the FIRST.LST file.
+In PC413
+These instructions will be changing. So if you are using PC413, then check this link from time to time. They are in the process of installing new computers, and modifying configurations. This will have an impact on how MASM is accessed.
+
+There is a problem with the DOS windows in PC413. Once you run a non-DOS application, then the DOS windows will not work properly. So, you should restart the computer that you want to work on, then you should not have a problem. As long as you open your DOS windows before opening any non-DOS applications, then your DOS windows will continue to work even if you open other applications. So, do not close your DOS windows until you are done with your editing session.
+In PC413, your DOS windows will open in C:\fpuser\startup. You should create your .ASM file here also. However, you must remember to save your work to the A:\ drive when you are done, or you will lose all your work. You may also lose your work if you need to restart the computer, so you may want to save your work to the A:\ periodically. However, you will not be able to run the executable from the A:\ drive, as there is a problem with the systems.
+After restarting the computer,
+Go to Start, Programs, MASM, PWB Window. Once the DOS window is open, type the command EDIT. Type your file and save it to c:\fpuser\startup. Be sure it has a .ASM extension. Do not close the DOS window or the editor.
+Go to Start, Programs, MASM, PWB Window. This will open a second DOS window. Change to the C:\fpuser\startup drive and issue the commands to run MASM. Assuming your file is named FIRST.ASM, then these commands will change to the C:\fpuser\startup directory, compile, link and run it. Please notice that the switch for ML is Case Sensitive: Capital F, Lower Case L.
+C:
+cd \fpuser\startup
+ML/Fl FIRST.ASM
+FIRST.EXE
+If you have any errors after issuing the MASM command, then you will need to fix your .ASM file and redo the above steps. You can open the file FIRST.LST to see where all your errors are, but you must change the FIRST.ASM file, not the FIRST.LST file. You will not need to change directories again, so you only need two commands to compile, link, and run the program. Please notice that the switch for ML is Case Sensitive: Capital F, Lower Case L.
+ML/Fl FIRST.ASM
+FIRST.EXE
+You should periodically save your .ASM file to the A:\ drive. This will prevent the loss of your program in the event that the computer needs to be rebooted. How often you do this is up to you, just ask your elf the question, "How much of my work am I willing to lose?"
+Place a formatted diskette into the A:\ drive
+From the DOS window issue the command
+copy first.asm A:\
+Replace first.asm with the name of your .ASM file.
+When you are all done with your editing session, you should save all of your work to the A:\ drive, or you will lose it all. You should also delete the copy of your work from C:\fpuser\startup, as the next user of the system could copy your work. The second command will display the directory of the A:\ drive for your project. Be sure that the time of the .ASM file is correct. Only do the last command when you are sure that the first command worked, or you will lose all of your work. These commands assume that your file was named first.asm.
+copy first.* a:\
+dir a:\first.*
+del first.*
+Running MASM from home
+You should follow the instructions for setting up MASM: Configuring MASM 6.11 from your home computer
+
+You should create a folder where you will keep all of your .ASM files (for example, COP3402). Use Windows Explorer to create the folder.
+
+Testing if MASM is installed properly
+
+If you have set up MASM correctly, then you should be able to open a DOS Window and type the command MASM. You should get an error message, but it won't say "Bad Command or File Name". If you get a message indicating that you have used the command incorrectly, then you have installed MASM correctly.
+If you do the above and you get the error "Bad Command or File Name", then you have not installed MASM properly. If you get this error, then try the command C:\MASM611\BIN\MASM. You should get an error message, but it won't say "Bad Command or File Name". If you get a message indicating that you have used the command incorrectly, then recheck the link: Configuring MASM 6.11 from your home computer. You have set up the PATH incorrectly.
+If you still get the "Bad Command or File Name" error, then you have either installed MASM in a directory other than C:\MASM611, or your installation is really messed up.
+If you installed MASM in a directory other that C:\MASM611, then replace C:\MASM611 in the command in step 2 above with the path where you installed MASM.
+If you installed MASM in C:\MASM611, then you should reinstall MASM.
+Once you are sure that MASM is installed correctly, then you can follow these steps.
+
+Go to Start, Programs, MS-DOS Prompt (or Command Window). Once the DOS window is open, type the command EDIT. Type your file and save it to your .ASM directory (for example, C:\COP3402). Be sure it has a .ASM extension. Do not close the DOS window or the editor.
+Go to Start, Programs, MS-DOS Prompt (or Command Window). This will open a second DOS window. Change to your .ASM directory (for example, C:\COP3402) and issue the commands to run MASM. Assuming your file is named FIRST.ASM, then these commands will change to your .ASM directory (for example, C:\COP3402) , compile, link and run it.
+C:
+cd \COP3402
+MASM/L FIRST.ASM
+LINK FIRST.OBJ
+FIRST.EXE
+If you have any errors after issuing the MASM command, then you will need to fix your .ASM file and redo the above steps. You can open the file FIRST.LST to see where all your errors are, but you must change the FIRST.ASM file, not the FIRST.LST file. You will not need to change directories again, so you only need two commands to compile, link, and run the program.
+MASM/L FIRST.ASM
+LINK FIRST.OBJ
+FIRST.EXE

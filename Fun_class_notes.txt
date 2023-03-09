@@ -1,0 +1,18 @@
+This is over Functions and Classes
+
+import Ex()>
+    long func (int, double);:
+        long - funtion type = type of return value (a str will return str, int return int)
+        func - Function Name
+        int,double - types of arguements
+Exit()<
+Declartion:
+    function in cpp are a like c. Use the keyword(char, int, double,) then the functions then the arguments
+    standard function in Cpp do not have to be declared. (dont ether):
+       its usally header files
+import Ex()>
+    /#/include <cmath>#this is a header file
+    this directive has standard funtion (sin(), cos(), pow(),etc),
+    you dont have to name these
+Exit()< 
+
