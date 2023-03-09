@@ -1,0 +1,25 @@
+This is Escape characters(Sequences)
+
+#constant characters are for C. There the define statements
+Chararcter              Meaning                 ASCII
+\a                    Alert(BEL)                  7
+\b                  backspace(BS)                 8
+\t                  Horzontal Tab                 9
+\n                  Line Feed(LF)                 10
+\v                  Vertical Tab                  11
+\f                  Form Feed(FF)                 12
+\r                  Carriage Return(CR)           13
+\"                  "(Double Qoutes)              34
+\'                  '(Single Qoutes)              39
+\?                  ?(Question Mark)              63
+\\                  \(BackSlash)                  92
+\0                  String Terminating Charater   0
+\000                Numerical Value of a Charater 000
+(up too 3 Octal Digits)      
+
+\xhh                Numerical Value of a Charater hh
+(HexaDecimals Digits)
+
+
+
+
