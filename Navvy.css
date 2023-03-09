@@ -1,0 +1,19 @@
+:root{
+    --primary: #ff6666;
+    --light: #ffe5a9;
+    --dark: #525266;
+    background-color:#bca18e;
+
+}
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/*this make so much sense now*/ 
+    font-family: 'fira sans', sans-serif;
+}
+
+
+
+

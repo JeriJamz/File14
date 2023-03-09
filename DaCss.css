@@ -1,0 +1,41 @@
+p{
+    font-family: 'Times New Roman';
+    font-size: 11px;
+    color: Purple;
+    /*align-content: ;*/
+    margin-left: 0px;
+}
+
+body{
+    position: middle;
+}
+
+h1{
+    font-family: Verdana;
+    text-align: middle;
+    color: #fffb96;
+}
+
+.MidDiv{
+    position: absolute;
+    background-color: #b967ff;
+    font-family: 'Gill Sans'
+}
+
+.RgtBod{
+    position: absolute;
+    right: 0;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+#Rgtpre{
+    font-family: 'Courier New';
+    font-size: 14px;
+    position: relative;
+    text-align: left;
+    background-color: #687f6c;
+    color: #626d9f;
+}
+
+
