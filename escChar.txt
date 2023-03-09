@@ -1,0 +1,8 @@
+Char		Description		Code
+
+'\n'		New Line		10
+'\f'		Form Feed		12
+'t'			Tab				9
+'\'			Single Qoutes	39
+'\\'		Backslash		92
+

@@ -1,0 +1,26 @@
+#this is sum random C notes
+Charaters()>
+
+Characters Sets:
+	Charaters are Versitle in c,
+	you can convert you all Keys on the Keyboard to ASCII:
+		Its on a 7 bit scale from 0-127#its really 8-bit but a 0 is base
+		(48-57) is 0-9
+		(68-90) is Uppercase A-Z
+		(97-122) is Lowercase a-z
+		Were starting to get into Binary and Machine Code
+#Note this is the standard but it varies from system
+Constant Characters:
+	Some Characters cant be typed. We call em "Constant Character" #esc
+#'\o' is for the null char
+#%c is how to print a variable with esc char (ch = '\n')
+
+	if you use single qoutes you can print strings in Math expr
+	import Ex()>
+		int n = 'Z' + 3 
+		...
+		n = 93
+		#this is bc the ASCII value is 90 so it converts takes that value and
+		add it 3. now you got ](a right bracket)
+
+
