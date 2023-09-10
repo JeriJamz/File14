@@ -1,0 +1,21 @@
+#This gets its own lil page bs it had a picture
+*CoProcessor Instructions:
+    ARM treats a lot of the Hardware like CoProcessors,
+    most of them follow the CoProcesser instructions
+#Hence the name
+    
+
+
+
+
+
+				C FIles(.c)
+   _________
+  |         |
+  |         |                 
+  |         |    ______|\
+  |ASM(arm) |   |        \ 	Obj Files(.o) 
+  |FILES(.s)|   |______  / 
+  |         |          |/ 
+  |_________|
+  
